@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="mn">
+    <head>
+        <title> 1234.mn </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="All courses page">
+        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <header>
+            <nav class="nav">
+                <a href="" class="homeButton"> Home </a> 
+                <div class="shoppingCart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="totalQuantity">0</div>
+                </div>
+            </nav>
+            <div class="cart">
+              <h2> Cart </h2>
+              <div class="listCart">
+                <div class="item">
+                  <img src="pics/JS.jpeg">
+                  <div class="content">
+                    <div class="name"> Product Name </div>
+                    <div class="productPrice"> $60/1 product </div>
+                  </div>
+                  <div class="quantity">
+                    <button> - </button>
+                    <span class="value"> 3 </span>
+                    <button> + </button>
+                  </div>
+                </div>
+              </div>
+              <div class="cartButtons">
+                <button class="close"> CLOSE </button>
+                <div class="checkout"> <a href="checkout"> CHECKOUT </a></div>
+              </div>
+            </div>
+        </header>
+
+        <section class="top">
+            <div class="top-words"> 
+                <h1> Хиймэл Оюун ухаан </h1>
+                <p> AI бол бидний цаг үеийн хамгийн хувирамтгай, хурдацтай хөгжиж буй технологийн нэг юм. Манай Хиймэл оюун ухааны сургалт нь хиймэл оюун ухааны сургалт, машин сургалтын курс, мөн гүнзгий суралцах, компьютерийн алсын хараа, байгалийн хэлний боловсруулалт, хиймэл оюун ухааны бүтээгдэхүүний менежментэд чиглэсэн хөтөлбөрүүдийг санал болгодог.</p>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="title1"> 
+                <h1> Миний сүүлд худалдаж авсан </h1>
+            </div>
+            <div class="container-slider">
+                <button id="prev-slide" class="slide-button">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <ul class="courses">
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/business.webp" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/java.png" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/JS.jpeg" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/excel.png" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/photoshop.jpg" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="pic">
+                          <img src="pics/htmlCss.png" alt=""> 
+                        </div>
+                        <div class="texts"> 
+                            <div>
+                              <b class="title"> </b> <br>
+                              <span class="teacherName"></span>
+                            </div>
+                            <div class="scores">
+                                <div class="score">
+                                   <span>  </span>
+                                    <span>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    </span>
+                                </div>
+                                <div class="seen">
+                                    <span> </span>
+                                    <span> <i class="fa-solid fa-eye"></i> </span>
+                                </div>
+                            </div>
+                            <div class="aboutClass">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="level">  </span>
+                                <i class="fa-solid fa-clock"></i>
+                                <span class="time"> </span>
+                                <i class="fa-solid fa-video"></i>
+                                <span class="lessons"> </span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">  </span>
+                                <span class="price-before">  </span>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+                <button id="next-slide" class="slide-button">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+        </section>
+
+        
+
+        <section class="section4"> 
+
+            <div class="container1">
+
+                <div class="select-btn">
+                  <span class="btn-text"> Үнэлгээ</span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </span>
+                </div>
+                
+                <ul class="list-items">
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span> 
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <b class="item-text"> 5.0 </b>
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span> 
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="item-text"> 4.0 </b>
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span> 
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="item-text"> 3.0 </b>
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span> 
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="item-text"> 2.0 </b>
+                    </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span> 
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <b class="item-text"> 1.0 </b>
+                    </span>
+                  </li>
+                </ul>
+                
+            </div>
+
+            <div class="container2">
+
+                <div class="select-btn">
+                  <span class="btn-text"> Түвшин </span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </span>
+                </div>
+                
+                <ul class="list-items">
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Анхан шат </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Дунд шат </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Гүнзгий шат </span>
+                  </li>
+                </ul>
+                
+            </div>
+
+            <div class="container3">
+
+                <div class="select-btn">
+                  <span class="btn-text"> Сэдэв </span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </span>
+                </div>
+                
+                <ul class="list-items">
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Мобайл хөгжүүлэлт </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> A </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> B </span>
+                  </li>
+                </ul>
+                
+            </div>
+
+            <div class="container4">
+
+                <div class="select-btn">
+                  <span class="btn-text"> Үнэ </span>
+                  <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </span>
+                </div>
+                
+                <ul class="list-items">
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Төлбөртэй </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Хямдарсан </span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text"> Үнэгүй </span>
+                  </li>
+                </ul>
+                
+            </div>
+
+        </section>
+
+        <section class="section5">
+            <div class="courses-all">
+                <div class="course">
+                    <div class="pic">
+                      <img src="pics/css.png" alt=""> 
+                    </div>
+                    <div class="texts"> 
+                        <div>
+                          <b class="title"> </b> <br>
+                          <span class="teacherName"></span>
+                        </div>
+                        <div class="scores">
+                            <div class="score">
+                               <span>  </span>
+                                <span>
+                                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                </span>
+                            </div>
+                            <div class="seen">
+                                <span> </span>
+                                <span> <i class="fa-solid fa-eye"></i> </span>
+                            </div>
+                        </div>
+                        <div class="aboutClass">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span class="level">  </span>
+                            <i class="fa-solid fa-clock"></i>
+                            <span class="time"> </span>
+                            <i class="fa-solid fa-video"></i>
+                            <span class="lessons"> </span>
+                        </div>
+                        <div class="prices">
+                            <span class="price">  </span>
+                            <span class="price-before">  </span>
+                        </div>
+                        <button class="purchaseButton"> Purchase </button>
+                    </div>
+                </div>
+                <div class="course">
+                  <div class="pic">
+                    <img src="pics/php.png" alt=""> 
+                  </div>
+                  <div class="texts"> 
+                      <div>
+                        <b class="title"> </b> <br>
+                        <span class="teacherName"></span>
+                      </div>
+                      <div class="scores">
+                          <div class="score">
+                             <span>  </span>
+                              <span>
+                                  <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                  <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                  <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                  <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                  <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                              </span>
+                          </div>
+                          <div class="seen">
+                              <span> </span>
+                              <span> <i class="fa-solid fa-eye"></i> </span>
+                          </div>
+                      </div>
+                      <div class="aboutClass">
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span class="level">  </span>
+                          <i class="fa-solid fa-clock"></i>
+                          <span class="time"> </span>
+                          <i class="fa-solid fa-video"></i>
+                          <span class="lessons"> </span>
+                      </div>
+                      <div class="prices">
+                          <span class="price">  </span>
+                          <span class="price-before">  </span>
+                      </div>
+                      <button class="purchaseButton"> Purchase </button>
+                  </div>
+              </div>
+              <div class="course">
+                <div class="pic">
+                  <img src="pics/wordpress.png" alt=""> 
+                </div>
+                <div class="texts"> 
+                    <div>
+                      <b class="title"> </b> <br>
+                      <span class="teacherName"></span>
+                    </div>
+                    <div class="scores">
+                        <div class="score">
+                           <span>  </span>
+                            <span>
+                                <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                            </span>
+                        </div>
+                        <div class="seen">
+                            <span> </span>
+                            <span> <i class="fa-solid fa-eye"></i> </span>
+                        </div>
+                    </div>
+                    <div class="aboutClass">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span class="level">  </span>
+                        <i class="fa-solid fa-clock"></i>
+                        <span class="time"> </span>
+                        <i class="fa-solid fa-video"></i>
+                        <span class="lessons"> </span>
+                    </div>
+                    <div class="prices">
+                        <span class="price">  </span>
+                        <span class="price-before">  </span>
+                    </div>
+                    <button class="purchaseButton"> Purchase </button>
+                </div>
+            </div>
+            <div class="course">
+              <div class="pic">
+                <img src="pics/c.png" alt=""> 
+              </div>
+              <div class="texts"> 
+                  <div>
+                    <b class="title"> </b> <br>
+                    <span class="teacherName"></span>
+                  </div>
+                  <div class="scores">
+                      <div class="score">
+                         <span>  </span>
+                          <span>
+                              <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                              <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                              <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                              <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                              <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                          </span>
+                      </div>
+                      <div class="seen">
+                          <span> </span>
+                          <span> <i class="fa-solid fa-eye"></i> </span>
+                      </div>
+                  </div>
+                  <div class="aboutClass">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                      <span class="level">  </span>
+                      <i class="fa-solid fa-clock"></i>
+                      <span class="time"> </span>
+                      <i class="fa-solid fa-video"></i>
+                      <span class="lessons"> </span>
+                  </div>
+                  <div class="prices">
+                      <span class="price">  </span>
+                      <span class="price-before">  </span>
+                  </div>
+                  <button class="purchaseButton"> Purchase </button>
+              </div>
+          </div>
+          <div class="course">
+            <div class="pic">
+              <img src="pics/react.png" alt=""> 
+            </div>
+            <div class="texts"> 
+                <div>
+                  <b class="title"> </b> <br>
+                  <span class="teacherName"></span>
+                </div>
+                <div class="scores">
+                    <div class="score">
+                       <span>  </span>
+                        <span>
+                            <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                        </span>
+                    </div>
+                    <div class="seen">
+                        <span> </span>
+                        <span> <i class="fa-solid fa-eye"></i> </span>
+                    </div>
+                </div>
+                <div class="aboutClass">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span class="level">  </span>
+                    <i class="fa-solid fa-clock"></i>
+                    <span class="time"> </span>
+                    <i class="fa-solid fa-video"></i>
+                    <span class="lessons"> </span>
+                </div>
+                <div class="prices">
+                    <span class="price">  </span>
+                    <span class="price-before">  </span>
+                </div>
+                <button class="purchaseButton"> Purchase </button>
+            </div>
+        </div>
+        <div class="course">
+          <div class="pic">
+            <img src="pics/english.jfif" alt=""> 
+          </div>
+          <div class="texts"> 
+              <div>
+                <b class="title"> </b> <br>
+                <span class="teacherName"></span>
+              </div>
+              <div class="scores">
+                  <div class="score">
+                     <span>  </span>
+                      <span>
+                          <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                      </span>
+                  </div>
+                  <div class="seen">
+                      <span> </span>
+                      <span> <i class="fa-solid fa-eye"></i> </span>
+                  </div>
+              </div>
+              <div class="aboutClass">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span class="level">  </span>
+                  <i class="fa-solid fa-clock"></i>
+                  <span class="time"> </span>
+                  <i class="fa-solid fa-video"></i>
+                  <span class="lessons"> </span>
+              </div>
+              <div class="prices">
+                  <span class="price">  </span>
+                  <span class="price-before">  </span>
+              </div>
+              <button class="purchaseButton"> Purchase </button>
+          </div>
+      </div>
+      <div class="course">
+        <div class="pic">
+          <img src="pics/typescript.png" alt=""> 
+        </div>
+        <div class="texts"> 
+            <div>
+              <b class="title"> </b> <br>
+              <span class="teacherName"></span>
+            </div>
+            <div class="scores">
+                <div class="score">
+                   <span>  </span>
+                    <span>
+                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                    </span>
+                </div>
+                <div class="seen">
+                    <span> </span>
+                    <span> <i class="fa-solid fa-eye"></i> </span>
+                </div>
+            </div>
+            <div class="aboutClass">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="level">  </span>
+                <i class="fa-solid fa-clock"></i>
+                <span class="time"> </span>
+                <i class="fa-solid fa-video"></i>
+                <span class="lessons"> </span>
+            </div>
+            <div class="prices">
+                <span class="price">  </span>
+                <span class="price-before">  </span>
+            </div>
+            <button class="purchaseButton"> Purchase </button>
+        </div>
+    </div>
+    <div class="course">
+      <div class="pic">
+        <img src="pics/flutter.jpg" alt=""> 
+      </div>
+      <div class="texts"> 
+          <div>
+            <b class="title"> </b> <br>
+            <span class="teacherName"></span>
+          </div>
+          <div class="scores">
+              <div class="score">
+                 <span>  </span>
+                  <span>
+                      <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                  </span>
+              </div>
+              <div class="seen">
+                  <span> </span>
+                  <span> <i class="fa-solid fa-eye"></i> </span>
+              </div>
+          </div>
+          <div class="aboutClass">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span class="level">  </span>
+              <i class="fa-solid fa-clock"></i>
+              <span class="time"> </span>
+              <i class="fa-solid fa-video"></i>
+              <span class="lessons"> </span>
+          </div>
+          <div class="prices">
+              <span class="price">  </span>
+              <span class="price-before">  </span>
+          </div>
+          <button class="purchaseButton"> Purchase </button>
+      </div>
+  </div>
+  <div class="course">
+    <div class="pic">
+      <img src="pics/ubuntu.png" alt=""> 
+    </div>
+    <div class="texts"> 
+        <div>
+          <b class="title"> </b> <br>
+          <span class="teacherName"></span>
+        </div>
+        <div class="scores">
+            <div class="score">
+               <span>  </span>
+                <span>
+                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star"  style="color: #FFD43B;"></i>
+                </span>
+            </div>
+            <div class="seen">
+                <span> </span>
+                <span> <i class="fa-solid fa-eye"></i> </span>
+            </div>
+        </div>
+        <div class="aboutClass">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="level">  </span>
+            <i class="fa-solid fa-clock"></i>
+            <span class="time"> </span>
+            <i class="fa-solid fa-video"></i>
+            <span class="lessons"> </span>
+        </div>
+        <div class="prices">
+            <span class="price">  </span>
+            <span class="price-before">  </span>
+        </div>
+        <button class="purchaseButton"> Purchase </button>
+    </div>
+</div>
+               
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <script src="sliding.js"></script>
+        <script src="list.js"></script>
+        <script src="mainFilters.js"></script>
+        <script src="purchase.js"></script>
+    </body>
+</html>
