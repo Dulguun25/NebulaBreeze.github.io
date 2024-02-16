@@ -1,0 +1,179 @@
+{
+    "courses": {
+        "course": [
+            {
+                "title": "Бизнесийн англи хэлийг эхнээс нь дуустал!",
+                "teacherName": "Bold",
+                "score": "5.0",
+                "seen": "4.9k",
+                "level": "Анхан шат",
+                "time": "52 цаг 42 мин",
+                "lessons": "120 хичээл",
+                "price": "49,500₮",
+                "price-before": "49,500₮"
+            },
+            {
+                "title": "Java native мобайл апп хөгжүүлэлт эхнээс нь",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "3.5k",
+                "level": "Гүнзгий шат",
+                "time": "53 цаг",
+                "lessons": "50 хичээл",
+                "price": "60,500₮",
+                "price-before": "70,500₮"
+            },
+            {
+                "title": "JavaScript: Тэгээс мэргэжилтэн хүртэл!",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53 цаг",
+                "lessons": "30 хичээл",
+                "price": "50,500₮",
+                "price-before": "50,500₮"
+            },{
+                "title": "Microsoft Excel - Мастер Сургалт",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53 цаг",
+                "lessons": "20 хичээл",
+                "price": "50,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": "Photoshop ашиглаж сурцгаая !",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53 цаг",
+                "lessons": "20 хичээл",
+                "price": "50,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": "HTML5, CSS3 эхнээс нь дуустал! (Sass-ын хамт)",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53 цаг",
+                "lessons": "20 хичээл",
+                "price": "50,500₮",
+                "price-before": "50,500₮"
+            }
+        ]
+    },
+    "courses-all": {
+        "course": [
+            {
+                "title": "CSS animation супер хийж сурцгаая",
+                "teacherName": "Bat",
+                "score": "2.0",
+                "seen": "3.8k",
+                "level": "Анхан шат",
+                "time": "26 цаг",
+                "lessons": "20 хичээл",
+                "price": "50,500₮",
+                "price-before": "80,500₮",
+                "category": "Мобайл хөгжүүлэлт",
+                "condition": "Хямдарсан",
+                "watched": "high"
+            },
+            {
+                "title": "PHP мастер сургалт",
+                "teacherName": "Bold",
+                "score": "5.0",
+                "seen": "3.3k",
+                "level": "Дунд шат",
+                "time": "15 цаг",
+                "lessons": "10 хичээл",
+                "price": "40,500₮",
+                "price-before": "60,500₮",
+                "category": "Мобайл хөгжүүлэлт",
+                "condition": "Хямдарсан"
+            },
+            {
+                "title": "Wordpress мастер сургалт",
+                "teacherName": "Bat",
+                "score": "4.0",
+                "seen": "5k",
+                "level": "Анхан шат",
+                "time": "10 цаг",
+                "lessons": "10 хичээл",
+                "price": "30,500₮",
+                "price-before": "40,500₮"
+            },
+            {
+                "title": "Алгоритм ба Си хэл",
+                "teacherName": "Bat",
+                "score": "5.0",
+                "seen": "3.5k",
+                "level": "Анхан шат",
+                "time": "25 цаг",
+                "lessons": "10 хичээл",
+                "price": "30,500₮",
+                "price-before": "60,500₮"
+            },
+            {
+                "title": "React эхнээс нь дуустал!",
+                "teacherName": "Bat",
+                "score": "2.0",
+                "seen": "3.5k",
+                "level": "Гүнзгий шат",
+                "time": "30 цаг",
+                "lessons": "15 хичээл",
+                "price": "40,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": "Анхан шатны англи хэл",
+                "teacherName": "Bat",
+                "score": "1.0",
+                "seen": "3.5k",
+                "level": "Анхан шат",
+                "time": "53цаг",
+                "lessons": "200хичээл",
+                "price": "30,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": "Typescript эхнээс нь дуустал!",
+                "teacherName": "Bat",
+                "score": "3.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53цаг",
+                "lessons": "200хичээл",
+                "price": "20,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": " Flutter 3.0 - Мобайл аппликейшн хөгжүүлэлтийг эхнээс нь дуустал",
+                "teacherName": "Bat",
+                "score": "2.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53цаг",
+                "lessons": "200хичээл",
+                "price": "30,500₮",
+                "price-before": "50,500₮"
+            },
+            {
+                "title": "Linux үйлдлийн системийг эхнээс нь (ubuntu)",
+                "teacherName": "Bat",
+                "score": "5.0",
+                "seen": "3.5k",
+                "level": "Дунд шат",
+                "time": "53цаг",
+                "lessons": "200хичээл",
+                "price": "50,500₮",
+                "price-before": "50,500₮"
+            }
+        ]
+    } 
+}
